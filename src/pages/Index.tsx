@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
-import { Play, Download, Music, Film, Tv, BookOpen, Phone, X, Check } from 'lucide-react';
+import { Play, Download, Music, Film, Tv, BookOpen, Phone, X, Check, Settings } from 'lucide-react';
+import { useNavigate } from 'react-router-dom';
+import logoImg from '../assets/streamvault_logo.png';
 
 interface Content {
   id: string;
